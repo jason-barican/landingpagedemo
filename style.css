@@ -1,0 +1,184 @@
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+.header {
+  background: #1F2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.top-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+}
+
+.right-links {
+  margin-left: 16px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #E5E7EB;
+  padding: 0 16px;
+}
+
+a:nth-child(1) {
+  padding: 0;
+}
+
+.panel1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 64px 64px;
+  
+}
+
+.panel1-text {
+  width: 30rem;
+}
+
+
+.panel1 img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: none;
+  margin: 0 32px;
+  
+}
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.panel2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel2 h1 {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 3px #3882F6 solid;
+  border-radius: 5%;
+}
+
+.figures {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+figure {
+  margin: 0 32px 64px;
+}
+
+figcaption {
+
+  text-align: center;
+}
+
+.panel3 {
+  background-color: #E5E7EB;
+  padding: 32px 0;
+}
+
+.quote {
+  width: 400px;
+  margin: auto;
+  color: #1F2937;
+  font-size: 36px;
+  
+}
+
+.quote .quote {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote .author {
+  color: #1F2937;
+  text-align: right;
+}
+
+.panel4 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  width: 70vw;
+  height: 50%;
+  margin: auto;
+  
+}
+.panel4-text {
+  width: 60%;
+}
+.call-to-action p {
+  padding: 0;
+  margin-top: -20px;
+}
+
+.call-to-action button {
+  background-color: transparent;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  border: 2px white solid;
+  border-radius: 10px;
+  padding: 8px 40px;
+}
+
+.panel1 button, .call-to-action button:hover {
+  cursor: pointer;
+}
+
+.panel5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
+  height: 6rem;
+}
